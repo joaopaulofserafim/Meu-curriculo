@@ -1,18 +1,45 @@
-.tituloUm{text-align: center;
+.nome{text-align: left;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: black;}
+color: rgb(0, 0, 0);background-color: rgba(255, 255, 255, 0.813);margin-top: -20px; margin-bottom: -10px;}
 
-.Fundo{background-color:white;}
+.Fundo{background-color: rgba(62, 249, 246, 0.642);}
 
 .ctt{text-align: center;
     font-family:Arial, Helvetica, sans-serif}
 
-hr{
-    border:  2px solid black;
+hr{ border:  2px solid rgba(255, 255, 255, 0.664);
     }
 
 .topicUm{text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(0, 0, 0);background-color: rgba(255, 255, 255, 0.509);}
 
-.apr{text-align: center;
-font-family:serif;}
+.apr{text-align: left;
+font-family:serif;color: rgba(0, 0, 0, 0.676);}
+
+.tituloDois{text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:  rgb(0, 0, 0);background-color: rgba(255, 255, 255, 0.509)}
+
+.tituloTres{text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: rgb(0, 0, 0);background-color: rgba(255, 255, 255, 0.509);}
+
+ .tituloFour{text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: rgb(0, 0, 0);background-color: rgba(255, 255, 255, 0.509)}
+
+
+.tituloFive{text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: rgb(0, 0, 0); background-color:rgba(255, 255, 255, 0.509)}
+    
+.tituloSeis {text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.509)}
+
+
+p{color: rgba(0, 0, 0, 0.676); 
+  font-weight: bold;}
+
+li{ color:rgba(0, 0, 0, 0.676); 
+    font-weight: bold;}
+
+i{margin-right: 40px;}
+
+body{width: 90vw; margin: auto;
+; border: 2px solid white; padding: 20px;
