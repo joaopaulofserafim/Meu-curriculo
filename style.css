@@ -170,3 +170,8 @@ th {
 td {
     border: 1px solid white;
 }
+
+.linkcurri a:hover{
+    color: blue;
+}
+
