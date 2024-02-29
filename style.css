@@ -2,103 +2,171 @@
 
 
 
-.nome{text-align: left;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: rgb(0, 0, 0);
-background-color: rgb(53, 240, 246);
- font-size: 3rem;
-margin: 2rem;}
+.nome {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 240, 246);
+    font-size: 3rem;
+    margin: 2rem;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
 
-.Fundo{background-color: rgb(0, 0, 0);}
+.Fundo {
+    background-color: rgb(0, 0, 0);
+}
 
-.ctt{text-align: center;
-    font-family:Arial, Helvetica, sans-serif} 
+.ctt {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
 
-hr{ border:  2px solid rgb(53,240,246);
-    }
+hr {
+    border: 2px solid rgb(53, 240, 246);
+}
 
-.topicUm{text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     color: rgb(0, 0, 0);
-     background-color: rgb(53, 240, 246);
-     font-size: 30px}
+.topicUm {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 240, 246);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
-.apr{text-align: left;
-font-family:serif;color: rgb(255, 255, 255);}
+.apr {
+    text-align: left;
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
 
-.tituloDois{text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:  rgb(0, 0, 0);background-color: rgba(53, 240, 246, 246); font-size: 30px;}
+.tituloDois {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(53, 240, 246, 246);
+    font-size: 30px;
+    ;
+    margin-bottom: 30px;
+}
 
-.tituloTres{text-align: center;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: rgb(0, 0, 0);background-color: rgb(53, 240, 246);
-        font-size: 30px}
+.tituloTres {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 240, 246);
+    font-size: 30px;
+}
 
- .tituloFour{text-align: center;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: rgb(0, 0, 0);background-color: rgb(53, 240, 246);
-            font-size: 30px}
-
-
-.tituloFive{text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: rgb(0, 0, 0); background-color:rgb(53, 240, 246);
-    font-size: 30px}
-    
-.tituloSeis {text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(0, 0, 0); background-color: rgb(53, 240, 246);
-    font-size: 30px}
-
-
-p{color: rgb(255, 255, 255); 
-  font-weight: bold;
-line-height: 1.5;}
-
-li{ color:rgb(255, 255, 255); 
-    font-weight: bold;}
-
-i{margin-right: 40px;}
-
-body{width: 90vw; margin: auto;
- padding-top: 10px;
- color: white;
+.tituloFour {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 240, 246);
+    font-size: 30px
 }
 
 
-.rodaPe{background-color: black;}
-
-
-.oneTitle{text-align: center;
-text-align: left;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.tituloFive {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 240, 246);
+    font-size: 30px
 }
 
-.emailj{color: orange;}
+.tituloSeis {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 240, 246);
+    font-size: 30px
+}
 
-.botao button  {
+
+p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 20px 0px 20px
+
+}
+
+li {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+i {
+    margin-right: 40px;
+}
+
+body {
+    width: 90vw;
+    margin: auto;
+    padding-top: 10px;
+    color: white;
+}
+
+
+.rodaPe {
+    background-color: black;
+}
+
+
+.oneTitle {
+    text-align: center;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.emailj {
+    color: orange;
+}
+
+.botao button {
     border-radius: 50%;
     margin-left: -45px;
-   color: white;
-   background-color: rgb(0, 255, 234);
-   padding: 5px;}
-
-.back{background-color: rgb(0, 0, 0);}
-
-.linkcurri a{color: orange;}
-
-.foter{ text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     color: rgb(0, 0, 0);
-     background-color: rgb(53, 240, 246);
-     font-size: 30px;
+    color: white;
+    background-color: rgb(0, 255, 234);
+    padding: 5px;
 }
 
-.tabela,th,td{border-collapse:collapse;
-padding: 10px; text-align: center;
-margin-top: 30px;
-margin-bottom: 30px;}
-
-th{border: 1px solid rgb(0, 0, 0);
-background-color: rgb(255, 255, 255);
-text-align: center;
-color: black;
+.back {
+    background-color: rgb(0, 0, 0);
 }
 
-td{border: 1px solid white;}
+.linkcurri a {
+    color: orange;
+}
+
+.foter {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 240, 246);
+    font-size: 30px;
+}
+
+.tabela,
+th,
+td {
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+th {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+}
+
+td {
+    border: 1px solid white;
+}
