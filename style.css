@@ -8,155 +8,104 @@
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
-    background-color: rgb(53, 240, 246);
+    background-color: rgb(255, 255, 255);          /* pag 2 */
     border-radius: 10px;
     font-size: 3rem;
     margin: 2rem;
     margin-top: -40px;
     margin-bottom: 30px;
-}
+}  
 
 .Fundo {
-    background-color: rgb(20, 3, 83);
+    background-color: rgba(89, 247, 244, 0.521);            /* pag 2 */
 }
 
 .ctt {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif             /* pag 2 */
 }
 
 hr {
-    border: 2px solid rgb(53, 240, 246);
-    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;                              /* pag 2 */ 
 }
 
-.topicUm {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: rgb(53, 240, 246);
-    font-size: 30px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-
-}
 
 .apr {
     text-align: left;
     font-family: serif;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);                   /* pag 2 */ 
     margin-bottom: 30px;
 }
 
-.tituloDois {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: rgba(53, 240, 246, 246);
-    font-size: 30px;
-    ;
-    margin-bottom: 30px;
-    border-radius: 10px
-}
 
-.tituloTres {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: rgb(53, 240, 246);
-    font-size: 30px;
-    border-radius: 10px
-}
-
-.tituloFour {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: rgb(53, 240, 246);
-    font-size: 30px;
-    border-radius: 10px
-}
-
-
-.tituloFive {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: rgb(53, 240, 246);
-    font-size: 30px;
-    border-radius: 10px
-}
-
-.tituloSeis {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: rgb(53, 240, 246);
-    font-size: 30px;
-    border-radius: 10px
-}
 
 
 p {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);                 
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1.5;                     /* pag 2 */
     margin: 20px 0px 20px
 }
 
 li {
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-weight: bold;                      /* pag 2 */
 }
 
 i {
-    margin-right: 40px;
+    margin-right: 40px;                     /* pag 2 */
 }
 
 body {
     width: 90vw;
     margin: auto;
-    padding-top: 10px;
-    color: white;
+    padding-top: 10px;                     /* pag 2 */
+    color: white; 
 }
 
 
 .rodaPe {
-    background-color: black;
+    background-color: rgb(153, 153, 153);   
+    padding: 0px  0px; 
+             /* pag 1 */
 }
 
 
 .oneTitle {
     text-align: center;
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;               /* ?*/
 }
 
 .emailj {
-    color: orange;
+    color: rgb(255, 0, 0);                    /* pag 2 */
 }
 
 .botao button {
     border-radius: 50%;
-    margin-left: -45px;
+    margin-left: -45px;                        /*  botão*/       
     color: white;
-    background-color: rgb(0, 255, 234);
+    background-color: rgb(255, 255, 255);             
     padding: 5px;
+    border: 0px;
 }
 
 .back {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);    
+    margin: 0px 0px 0px 0px;
+          /* pag 1 */
 }
 
 .linkcurri a {
-    color: orange;
+    color: orange;              /* pag 1 */
 }
 
 .foter {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
-    background-color: rgb(53, 240, 246);
+    background-color: rgb(255, 255, 255);                /* pag 1 */
     font-size: 30px;
 }
 
@@ -164,7 +113,7 @@ body {
 th,
 td {
     border-collapse: collapse;
-    padding: 10px;
+    padding: 10px;                                 /* pag 2 */
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px
@@ -172,41 +121,62 @@ td {
 
 th {
     border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     text-align: center;
-    color: black;
+    color: rgb(255, 242, 3);                             /* pag 2 */
     text-align: center;
 }
 
 td {
-    border: 1px solid white;
-    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;   
+    color: rgb(0, 0, 0);                         /* pag 2 */
 }
 
 .linkcurri a:hover {
-    color: blue;
+    color: blue;                           /* pag 1 */
 }
 
 
 .emailj:hover {
-    color: blue;
+    color: blue;                   /* pag 1 */
 }
 
 
 .backimg {
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;                   /* pag 1 */
     background-attachment: fixed;
 }
 
 .tabs {
-    margin-left: 490px;
+    margin-left: 490px;             /* pag 2 */
 }
 
-.sec1:hover > :not(:hover){
+.sec1:hover> :not(:hover) {
 
-    opacity: 0.8;
+    opacity: 0.9;
     transform: scale(0.9);
-background-color: rgba(58, 58, 210, 0.662);
+    background-color: rgb(255, 255, 255);               /* pag 2 */
+} 
+
+#titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;                                                                            /* pag 2 */
+    border-radius: 10px
 }
 
+#sec:hover{
+    opacity: 0.9;
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);                             /* pag 2 */
+}
+
+.baixo{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
