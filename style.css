@@ -1,106 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
-    box-sizing: border-box;                   /*all*/
+    box-sizing: border-box;
+    /*all*/
 }
 
-
-
-.linkcurri a:hover {
-    color: blue;                           /* pag 1 */
+body, html{
+    scroll-behavior: smooth;
 }
-
-
-.emailj:hover {
-    color: blue;                   /* pag 1 */
-}
-
-
-.baixo{
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       /*pag 1*/
-    text-align: center;
-}
-
-.rodaPe {
-    background-color: rgb(153, 153, 153);   
-    padding: 0px  0px; 
-             /* pag 1 */
-}
-
-.linkcurri a {
-    color: orange;              /* pag 1 */
-}
-
-
-.oneTitle {
-    text-align: center;
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;              /* pag 1*/
-}
-
-
-/*                                                      ######################################                                         */
-
 
 .nome {
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);          /* pag 2 */
+    background-color: rgb(255, 255, 255);
+    /* pag 2 */
     border-radius: 10px;
     font-size: 3rem;
     margin: 2rem;
-    margin-top: -40px;
+    margin-top: 0px;
     margin-bottom: 30px;
-}  
+}
 
 .Fundo {
-    background-color: rgba(89, 247, 244, 0.521);            /* pag 2 */
+    background-color: rgba(89, 247, 244, 0.521);
+    /* pag 2 */
 }
 
 .ctt {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif             /* pag 2 */
+    font-family: Arial, Helvetica, sans-serif
+        /* pag 2 */
 }
 
 hr {
     border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;                              /* pag 2 */ 
+    border-radius: 20px;
+    /* pag 2 */
 }
 
 
 .apr {
     text-align: left;
     font-family: serif;
-    color: rgb(0, 0, 0);                   /* pag 2 */ 
+    color: rgb(0, 0, 0);
+    /* pag 2 */
     margin-bottom: 30px;
+    font-size: large;
 }
 
 
 
 
 p {
-    color: rgb(0, 0, 0);                 
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    line-height: 1.5;                     /* pag 2 */
-    margin: 20px 0px 20px
+    line-height: 1.5;
+    /* pag 2 */
+    margin: 20px 0px 20px;
+    font-size: large;
 }
 
 li {
     color: rgb(0, 0, 0);
-    font-weight: bold;                      /* pag 2 */
+    font-weight: bold;
+    font-size: large;
+    /* pag 2 */
 }
 
 i {
-    margin-right: 40px;                     /* pag 2 */
+    margin-right: 40px;
+    /* pag 2 */
 }
 
 body {
     width: 90vw;
     margin: auto;
-    padding-top: 10px;                     /* pag 2 */
-    color: white; 
+    padding-top: 10px;
+    /* pag 2 */
+    color: white;
 }
 
 
@@ -108,22 +86,17 @@ body {
 
 
 .emailj {
-    color: rgb(255, 0, 0);                    /* pag 2 */
+    color: rgb(255, 0, 0);
+    /* pag 2 */
 }
 
 .botao button {
     border-radius: 50%;
-    margin-left: -45px;                        /*  botão*/       
+    margin-left: -45px;
     color: white;
-    background-color: rgb(255, 255, 255);             
+    background-color: rgb(255, 255, 255);
     padding: 5px;
     border: 0px;
-}
-
-.back {
-    background-color: rgb(0, 0, 0);    
-    margin: 0px 0px 0px 0px;
-          /* pag 1 */
 }
 
 
@@ -132,7 +105,8 @@ body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);                /* pag 2 */
+    background-color: rgb(255, 255, 255);
+    /* pag 2 */
     font-size: 30px;
 }
 
@@ -140,7 +114,8 @@ body {
 th,
 td {
     border-collapse: collapse;
-    padding: 10px;                                 /* pag 2 */
+    padding: 10px;
+    /* pag 2 */
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px
@@ -150,41 +125,93 @@ th {
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
     text-align: center;
-    color: rgb(255, 242, 3);                             /* pag 2 */
+    color: rgb(255, 242, 3);
+    /* pag 2 */
     text-align: center;
 }
 
 td {
     border: 1px solid rgb(0, 0, 0);
-    text-align: center;   
-    color: rgb(0, 0, 0);                         /* pag 2 */
+    text-align: center;
+    color: rgb(0, 0, 0);
+    /* pag 2 */
 }
 
 
 
 .tabs {
-    margin-left: 490px;             /* pag 2 */
+    margin-left: 490px;
+    /* pag 2 */
 }
 
-.sec1:hover> :not(:hover) {
 
-    opacity: 0.9;
-    transform: scale(0.9);
-    background-color: rgb(255, 255, 255);               /* pag 2 */
-} 
-
-#titulo{
+#titulo {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    font-size: 30px;                                                                            /* pag 2 */
+    font-size: 30px;
+    /* pag 2 */
     border-radius: 10px
 }
 
-#sec:hover{
+#sec1:hover {
     opacity: 0.9;
     transform: scale(0.9);
-    background-color: rgb(255, 255, 255);                             /* pag 2 */
+    background-color: rgb(255, 255, 255);
+    /* pag 2 */
 }
 
+#lista-tag li {
+    display: inline block;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+#sec2:hover {
+    opacity: 0.9;
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);
+    /* pag 2 */
+}
+
+#sec3:hover {
+    opacity: 0.9;
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);
+    /* pag 2 */
+}
+
+#sec4:hover {
+    opacity: 0.9;
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);
+    /* pag 2 */
+}
+
+#sec5:hover {
+    opacity: 0.9;
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);
+    /* pag 2 */
+}
+
+#sec6:hover {
+    opacity: 0.9;
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);
+    /* pag 2 */
+}
+
+#sec7:hover {
+    opacity: 0.9;
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);
+    /* pag 2 */
+}
+
+.ull li{
+    display: inline;
+
+}
