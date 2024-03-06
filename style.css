@@ -5,7 +5,7 @@
     /*all*/
 }
 
-body, html{
+body, html, header{
     scroll-behavior: smooth;
 }
 
@@ -155,10 +155,13 @@ td {
     border-radius: 10px
 }
 
+
 #sec1:hover {
     opacity: 0.9;
     transform: scale(0.9);
     background-color: rgb(255, 255, 255);
+    
+    
     /* pag 2 */
 }
 
@@ -183,10 +186,12 @@ td {
     /* pag 2 */
 }
 
+
 #sec4:hover {
     opacity: 0.9;
     transform: scale(0.9);
     background-color: rgb(255, 255, 255);
+
     /* pag 2 */
 }
 
@@ -211,7 +216,14 @@ td {
     /* pag 2 */
 }
 
-.ull li{
-    display: inline;
+.list{
+    list-style: none;
+    display: block;
+    text-decoration: none;
+}
+
+.list a {
+   text-decoration: none;
+   position: relative;
 
 }
