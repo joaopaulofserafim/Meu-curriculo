@@ -1,8 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;                   /*all*/
 }
+
+
+
+.linkcurri a:hover {
+    color: blue;                           /* pag 1 */
+}
+
+
+.emailj:hover {
+    color: blue;                   /* pag 1 */
+}
+
+
+.baixo{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       /*pag 1*/
+    text-align: center;
+}
+
+.rodaPe {
+    background-color: rgb(153, 153, 153);   
+    padding: 0px  0px; 
+             /* pag 1 */
+}
+
+.linkcurri a {
+    color: orange;              /* pag 1 */
+}
+
+
+.oneTitle {
+    text-align: center;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;              /* pag 1*/
+}
+
+
+/*                                                      ######################################                                         */
+
 
 .nome {
     text-align: left;
@@ -65,18 +104,8 @@ body {
 }
 
 
-.rodaPe {
-    background-color: rgb(153, 153, 153);   
-    padding: 0px  0px; 
-             /* pag 1 */
-}
 
 
-.oneTitle {
-    text-align: center;
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;               /* ?*/
-}
 
 .emailj {
     color: rgb(255, 0, 0);                    /* pag 2 */
@@ -97,15 +126,13 @@ body {
           /* pag 1 */
 }
 
-.linkcurri a {
-    color: orange;              /* pag 1 */
-}
+
 
 .foter {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);                /* pag 1 */
+    background-color: rgb(255, 255, 255);                /* pag 2 */
     font-size: 30px;
 }
 
@@ -133,21 +160,7 @@ td {
     color: rgb(0, 0, 0);                         /* pag 2 */
 }
 
-.linkcurri a:hover {
-    color: blue;                           /* pag 1 */
-}
 
-
-.emailj:hover {
-    color: blue;                   /* pag 1 */
-}
-
-
-.backimg {
-    background-size: cover;
-    background-repeat: no-repeat;                   /* pag 1 */
-    background-attachment: fixed;
-}
 
 .tabs {
     margin-left: 490px;             /* pag 2 */
@@ -175,8 +188,3 @@ td {
     background-color: rgb(255, 255, 255);                             /* pag 2 */
 }
 
-.baixo{
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
