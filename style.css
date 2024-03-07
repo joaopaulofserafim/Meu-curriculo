@@ -5,15 +5,35 @@
     /*all*/
 }
 
-body, html, header{
+:root {
     scroll-behavior: smooth;
+    /*Temas*/
+    --planofundo: #000000;
+    --cor-primaria-texto: #ffffff;
+    --cor-fundo-tags: #353535;
+}
+
+[data-tema="light"] {
+    --plano-fundo: #5df3f8a3;
+    --cor-primaria-texto: #000000;
+    --cor-fundo-tags: #353535;
+    --cor-back-p: rgba(255, 255, 255, 0.687);
+    --cor-link: #000000;
+}
+
+[data-tema="dark"] {
+    --plano-fundo: #000000;
+    --cor-primaria-texto: #ffffff;
+    --cor-fundo-tags: #353535;
+    --cor-back-p: rgb(125, 125, 125);
+    --cor-link: #0000ff;
 }
 
 .nome {
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    color: #000000;
+    background-color: #ffffff;
     /* pag 2 */
     border-radius: 10px;
     font-size: 3rem;
@@ -22,10 +42,7 @@ body, html, header{
     margin-bottom: 30px;
 }
 
-.Fundo {
-    background-color: rgba(89, 247, 244, 0.521);
-    /* pag 2 */
-}
+
 
 .ctt {
     text-align: center;
@@ -43,7 +60,6 @@ hr {
 .apr {
     text-align: left;
     font-family: serif;
-    color: rgb(0, 0, 0);
     /* pag 2 */
     margin-bottom: 30px;
     font-size: large;
@@ -53,7 +69,6 @@ hr {
 
 
 p {
-    color: rgb(0, 0, 0);
     font-weight: bold;
     line-height: 1.5;
     /* pag 2 */
@@ -62,7 +77,6 @@ p {
 }
 
 li {
-    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: large;
     /* pag 2 */
@@ -78,7 +92,10 @@ body {
     margin: auto;
     padding-top: 10px;
     /* pag 2 */
-    color: white;
+    background-color: var(--plano-fundo);
+    color: var(--cor-primaria-texto);
+
+
 }
 
 
@@ -86,18 +103,14 @@ body {
 
 
 .emailj {
-    color: rgb(255, 0, 0);
+    color: rgba(0, 255, 0, 0.797);
     /* pag 2 */
 }
 
-.botao button {
-    border-radius: 50%;
-    margin-left: -45px;
-    color: white;
-    background-color: rgb(255, 255, 255);
-    padding: 5px;
-    border: 0px;
+.emailj:hover{
+    color: #0000ff;
 }
+
 
 
 
@@ -159,11 +172,11 @@ td {
 #sec1:hover {
     opacity: 0.9;
     transform: scale(0.9);
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-back-p); 
     
-    
-    /* pag 2 */
+        /* pag 2 */
 }
+
 
 #lista-tag li {
     display: inline block;
@@ -175,14 +188,14 @@ td {
 #sec2:hover {
     opacity: 0.9;
     transform: scale(0.9);
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-back-p);
     /* pag 2 */
 }
 
 #sec3:hover {
     opacity: 0.9;
     transform: scale(0.9);
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-back-p);
     /* pag 2 */
 }
 
@@ -190,7 +203,7 @@ td {
 #sec4:hover {
     opacity: 0.9;
     transform: scale(0.9);
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-back-p);
 
     /* pag 2 */
 }
@@ -198,32 +211,29 @@ td {
 #sec5:hover {
     opacity: 0.9;
     transform: scale(0.9);
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-back-p);
     /* pag 2 */
 }
 
 #sec6:hover {
     opacity: 0.9;
     transform: scale(0.9);
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-back-p);
     /* pag 2 */
 }
 
 #sec7:hover {
     opacity: 0.9;
     transform: scale(0.9);
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-back-p);
     /* pag 2 */
 }
 
-.list{
+.list {
     list-style: none;
-    display: block;
-    text-decoration: none;
+    display: inline;
 }
 
 .list a {
-   text-decoration: none;
-   position: relative;
-
+    text-decoration: none;
 }
