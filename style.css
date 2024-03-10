@@ -2,12 +2,12 @@
 
 * {
     box-sizing: border-box;
-    /*all*/
+    scroll-behavior: smooth;
+    
 }
 
 :root {
     scroll-behavior: smooth;
-    /*Temas*/
     --planofundo: #000000;
     --cor-primaria-texto: #ffffff;
     --cor-fundo-tags: #353535;
@@ -18,7 +18,8 @@
     --cor-primaria-texto: #000000;
     --cor-fundo-tags: #353535;
     --cor-back-p: rgba(255, 255, 255, 0.687);
-    --cor-link: #000000;
+    --cor-link: #0000ff;
+    --cor-header: #000;
 }
 
 [data-tema="dark"] {
@@ -27,6 +28,7 @@
     --cor-fundo-tags: #353535;
     --cor-back-p: rgb(125, 125, 125);
     --cor-link: #0000ff;
+    --cor-header: #ffffff;
 }
 
 .nome {
@@ -34,7 +36,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #000000;
     background-color: #ffffff;
-    /* pag 2 */
+    
     border-radius: 10px;
     font-size: 3rem;
     margin: 2rem;
@@ -47,68 +49,24 @@
 .ctt {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif
-        /* pag 2 */
-}
-
-hr {
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    /* pag 2 */
-}
-
-
-.apr {
-    text-align: left;
-    font-family: serif;
-    /* pag 2 */
-    margin-bottom: 30px;
-    font-size: large;
-}
-
-
-
-
-p {
-    font-weight: bold;
-    line-height: 1.5;
-    /* pag 2 */
-    margin: 20px 0px 20px;
-    font-size: large;
-}
-
-li {
-    font-weight: bold;
-    font-size: large;
-    /* pag 2 */
-}
-
-i {
-    margin-right: 40px;
-    /* pag 2 */
-}
-
-body {
-    width: 90vw;
-    margin: auto;
-    padding-top: 10px;
-    /* pag 2 */
-    background-color: var(--plano-fundo);
-    color: var(--cor-primaria-texto);
+        
 
 
 }
-
+ button {
+    border-radius: 100%;
+ }
 
 
 
 
 .emailj {
-    color: rgba(0, 255, 0, 0.797);
-    /* pag 2 */
+    color: var(--cor-header);
 }
 
-.emailj:hover{
-    color: #0000ff;
+.emailj:hover {
+    color: var(--cor-link);
+
 }
 
 
@@ -119,7 +77,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    /* pag 2 */
+    
     font-size: 30px;
 }
 
@@ -128,33 +86,36 @@ th,
 td {
     border-collapse: collapse;
     padding: 10px;
-    /* pag 2 */
+    
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    color: var(--cor-primaria-texto);
 }
 
 th {
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    color: rgb(255, 242, 3);
-    /* pag 2 */
+    color: rgb(0, 0, 0);
+    
     text-align: center;
+
 }
 
 td {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     text-align: center;
     color: rgb(0, 0, 0);
-    /* pag 2 */
+    color: var(--cor-primaria-texto);
+    
 }
 
 
 
 .tabs {
     margin-left: 490px;
-    /* pag 2 */
+   
 }
 
 
@@ -164,7 +125,7 @@ td {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     font-size: 30px;
-    /* pag 2 */
+   
     border-radius: 10px
 }
 
@@ -172,9 +133,9 @@ td {
 #sec1:hover {
     opacity: 0.9;
     transform: scale(0.9);
-    background-color: var(--cor-back-p); 
-    
-        /* pag 2 */
+    background-color: var(--cor-back-p);
+
+   
 }
 
 
@@ -189,14 +150,14 @@ td {
     opacity: 0.9;
     transform: scale(0.9);
     background-color: var(--cor-back-p);
-    /* pag 2 */
+    
 }
 
 #sec3:hover {
     opacity: 0.9;
     transform: scale(0.9);
     background-color: var(--cor-back-p);
-    /* pag 2 */
+    
 }
 
 
@@ -205,28 +166,28 @@ td {
     transform: scale(0.9);
     background-color: var(--cor-back-p);
 
-    /* pag 2 */
+    
 }
 
 #sec5:hover {
     opacity: 0.9;
     transform: scale(0.9);
     background-color: var(--cor-back-p);
-    /* pag 2 */
+    
 }
 
 #sec6:hover {
     opacity: 0.9;
     transform: scale(0.9);
     background-color: var(--cor-back-p);
-    /* pag 2 */
+    
 }
 
 #sec7:hover {
     opacity: 0.9;
     transform: scale(0.9);
     background-color: var(--cor-back-p);
-    /* pag 2 */
+    
 }
 
 .list {
@@ -236,4 +197,9 @@ td {
 
 .list a {
     text-decoration: none;
+    color: var(--cor-header);
+}
+
+.list a:hover {
+    color: var(--cor-link);
 }
